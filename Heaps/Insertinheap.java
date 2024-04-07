@@ -1,4 +1,6 @@
-//only function
+import java.util.ArrayList;
+import java.util.*;
+
 public class Insertinheap {
     static class Heap{//final complexity is o(logn)
         ArrayList<Integer> arr= new ArrayList<>();
@@ -18,3 +20,18 @@ public class Insertinheap {
             }
         }
     }
+    public static void main(String[] args) {
+                // Create a new heap
+                Heap heap = new Heap();
+
+                // Add elements to the heap
+                heap.add(5);
+                heap.add(3);
+                heap.add(8);
+                heap.add(1);
+        
+                // Display the heap
+                System.out.println("Heap: " + heap.arr);
+        
+    }
+}
